@@ -1,0 +1,135 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+
+
+@media only screen and (max-width:1200px){
+	header{
+		height:65vh;
+	}
+	.row{
+		
+		margin:0 20px;
+	}
+	.hero-text-box{
+		width:90%;
+	}
+}
+
+
+
+@media only screen and (max-width:1024px){
+	
+.mobile_menu span{
+	display:block;
+}
+header h1{
+	font-size:4.2rem;
+}
+	html{
+	font-size:57.5%;}
+	header{
+		height:100vh;
+	}
+	.main-nav{
+		display:none;
+	}
+
+}
+
+@media only screen and (max-width:980px){
+	.span_1_of_4{
+		width:49.2%;
+	}
+	.span_1_of_4:nth-child(3){
+		margin-left:0;
+	}
+	.team_section .box p,.about_section .box{
+		padding:0;
+	}
+	.client_image {
+    width: 100%;
+    float: none;
+	text-align:center;
+}
+.client_quote{
+ width: 100%;
+    float: none;
+	text-align:center;
+}
+.about_section .col:nth-child(3),.about_section .col:nth-child(4){
+	margin-top:4rem;
+}
+.contact_section form{
+	width:100%;
+	margin-left:0;
+	
+}
+
+}
+@media only screen and (max-width:768px){
+	h1{
+		
+    font-size: 3.2rem;
+	} 
+ .portfolio_section .box{
+	 padding:0;
+ }
+}
+
+
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+		h1{
+		
+    font-size: 3.2rem;
+  margin-top:6rem;
+   
+ 
+}
+
+
+	
+}
+
+
+@media only screen and (max-width:480px){
+	.span_1_of_4{
+		width:100%;
+	}
+	html{
+		font-size:50%;
+	}
+	
+		header h1{
+		
+    font-size: 2.5rem;
+  
+ 
+   
+}
+.footer_menu ul {
+ 
+    margin-right: 5rem;
+}
+.little_description{
+	width:100%;
+}
+header{
+	height:65vh;
+}
+ 
+
+}
+@media only screen and (max-width:380px)and (orientation:portrait){
+	
+}
+
+
+
